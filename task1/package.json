@@ -1,0 +1,20 @@
+{
+  "name": "my_caesar_cli",
+  "version": "1.0.0",
+  "description": "translate from caesar's to human's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Elena Sevastian",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0-4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

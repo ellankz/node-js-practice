@@ -15,7 +15,7 @@ CLI tool can accept 4 options (short alias and full name):
 2. Run
 
 ```bash
-$ node index.js -a encode -s 7 -i "input/1.txt" -o "output/1.txt"
+$ node index.js -a encode -s 7 -i "./input/1.txt" -o "./output/1.txt"
 ```
 
 3. Action (encode/decode) and the shift are required.
@@ -26,7 +26,7 @@ $ node index.js -a encode -s 7 -i "input/1.txt" -o "output/1.txt"
 **Usage example:**
 
 ```bash
-$ node index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node index.js -a encode -s 7 -i "./input/1.txt" -o "./output/1.txt"
 ```
 
 ```bash

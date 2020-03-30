@@ -1,44 +1,22 @@
-const { pipeline } = require('stream');
 const fs = require('fs');
-const CaesarTransform = require('./CaesarTransform');
 const parseInput = require('./parseInput');
+const createStreamsAndPipe = require('./createStreamsAndPipe');
 
 // all the user input arguments here
-const program = parseInput(process.argv, err => {
+parseInput(process.argv, (err, program) => {
   if (err) {
-    console.error('Parse failed.', err);
-    throw err;
+    console.error(err.message);
+  } else if (program.output) {
+    // input is correct
+    // check if output file exists and move on to creating streams and piping
+    fs.access(program.output, fs.constants.F_OK, error => {
+      if (error) {
+        console.error('Output file does not exist');
+      } else {
+        createStreamsAndPipe(program);
+      }
+    });
+  } else {
+    createStreamsAndPipe(program);
   }
 });
-
-// Put either stdin/stdout or files into streams
-const inputStream = !program.input
-  ? process.stdin
-  : fs.createReadStream(program.input);
-
-const outputStream = !program.output
-  ? process.stdout
-  : fs.createWriteStream(program.output, { flags: 'a' });
-
-// use pipeline method with tramsformer, which does the encoding
-pipeline(
-  inputStream,
-  new CaesarTransform(program.action, program.shift),
-  outputStream,
-  err => {
-    if (err && err.code === 'ENOENT') {
-      console.error(
-        'A file path you specified does not refer to an existing file',
-        err.path
-      );
-    } else if (err && err.code === 'EISDIR') {
-      console.error('A path you specified refers to a path and not a file');
-    } else if (err && err.code === 'EPERM') {
-      console.error("You don't have enough permissions to work with this file");
-    } else if (err) {
-      console.error('Encode or decode failed.', err);
-    } else {
-      console.log('Encode or decode succeeded.');
-    }
-  }
-);

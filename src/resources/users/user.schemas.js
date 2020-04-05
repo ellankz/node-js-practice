@@ -7,6 +7,7 @@ const schemas = {
     password: Joi.string().required()
   }),
   put: Joi.object().keys({
+    id: Joi.string(),
     name: Joi.string(),
     login: Joi.string(),
     password: Joi.string()

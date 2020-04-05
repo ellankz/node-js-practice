@@ -71,7 +71,8 @@ const updateTask = (boardId, taskId, task) => {
 const deleteTask = (boardId, taskId) => {
   const tasks = Tasks.all;
   const newTasks = tasks.filter(
-    elem => !(elem.id === taskId && elem.boardId === boardId)
+    elem => !(elem.id === taskId)
+    // elem => !(elem.id === taskId && elem.boardId === boardId)
   );
   if (tasks.length !== newTasks.length) {
     Tasks.all = newTasks;

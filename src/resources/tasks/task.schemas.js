@@ -6,7 +6,7 @@ const schemas = {
     order: Joi.number(),
     description: Joi.string(),
     userId: Joi.string().allow(null),
-    boardId: Joi.string().required(),
+    boardId: Joi.string().allow(null),
     columnId: Joi.string().allow(null)
   }),
   put: Joi.object().keys({
@@ -15,7 +15,7 @@ const schemas = {
     order: Joi.number(),
     description: Joi.string(),
     userId: Joi.string().allow(null),
-    boardId: Joi.string(),
+    boardId: Joi.string().allow(null),
     columnId: Joi.string().allow(null)
   })
 };

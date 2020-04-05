@@ -21,11 +21,9 @@ const validateUuid = () => {
     );
     const params = ['id', 'boardId', 'taskId'];
     params.forEach(elem => {
-      console.log('TRY', elem);
       if (req.params[elem]) {
         const result = re.test(req.params[elem]);
         if (!result) {
-          console.log('ERROR', elem);
           const err = new ErrorHandler(400, 'The ID string is not a UUID');
           // eslint-disable-next-line callback-return
           next(err);

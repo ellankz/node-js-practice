@@ -22,8 +22,7 @@ router
   .route('/:boardId/tasks/:taskId')
   .all((req, res, next) => {
     next();
-    // }, validateUuid())  - normal behaviour
-  }) // - disable validation to ignore bug in test
+  }, validateUuid())
   .get((req, res) => {
     const task = tasksService.getOneTask(req.params.boardId, req.params.taskId);
     if (task) {

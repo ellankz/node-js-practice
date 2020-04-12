@@ -1,3 +1,5 @@
+const { logError } = require('../logging/winston.logger');
+
 class ErrorHandler extends Error {
   constructor(statusCode, message) {
     super();
@@ -7,11 +9,12 @@ class ErrorHandler extends Error {
 }
 
 const handleError = (err, res) => {
-  const { statusCode, message } = err;
-  res.status(statusCode).json({
+  logError(err);
+  err.message = err.statusCode === 500 ? 'Internal server error' : err.message;
+  res.status(err.statusCode).json({
     status: 'error',
-    statusCode,
-    message
+    statusCode: err.statusCode,
+    message: err.message
   });
 };
 

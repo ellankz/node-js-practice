@@ -1,13 +1,13 @@
 const Joi = require('joi');
-const { ErrorHandler } = require('./error');
+const { ErrorHandler } = require('../errors/error');
 
 const validateJoi = schema => {
   return (req, res, next) => {
     const result = Joi.validate(req.body, schema);
     if (result.error) {
       const err = new ErrorHandler(400, 'Invalid request body');
-      // eslint-disable-next-line callback-return
       next(err);
+      return;
     }
     next();
   };
@@ -24,9 +24,12 @@ const validateUuid = () => {
       if (req.params[elem]) {
         const result = re.test(req.params[elem]);
         if (!result) {
-          const err = new ErrorHandler(400, 'The ID string is not a UUID');
-          // eslint-disable-next-line callback-return
+          const err = new ErrorHandler(
+            400,
+            'Invalid request. The ID string is not a UUID'
+          );
           next(err);
+          return;
         }
       }
     });

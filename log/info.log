@@ -1,0 +1,6 @@
+{"message":"   500, Unhandled Rejection at Promise: Oops!","level":"error","timestamp":"2020-04-12T12:22:46.624Z"}
+{"message":"    URL: /users/69433f71-1797-4779-a903-e6718eeab407, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-12T12:26:23.815Z"}
+{"message":"   404, User not found","level":"error","timestamp":"2020-04-12T12:26:23.847Z"}
+{"message":"    URL: /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-12T12:27:35.696Z"}
+{"message":"    URL: /users/69433f71-1797-4779-a903-e6718eeab40, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-12T12:27:40.220Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-12T12:27:40.226Z"}

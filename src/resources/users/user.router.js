@@ -7,9 +7,9 @@ const { ErrorHandler } = require('../../errors/error');
 
 router
   .route('/')
-  .get((req, res, next) => {
+  .get(async (req, res, next) => {
     try {
-      const users = usersService.getUsers();
+      const users = await usersService.getUsers();
       if (users.length > 0) {
         res.json(users.map(User.toResponse));
       } else {
@@ -20,9 +20,9 @@ router
       return;
     }
   })
-  .post(validateJoi(schemas.post), (req, res, next) => {
+  .post(validateJoi(schemas.post), async (req, res, next) => {
     try {
-      const newUser = usersService.createUser(req.body);
+      const newUser = await usersService.createUser(req.body);
       res.json(User.toResponse(newUser));
     } catch (error) {
       next(error);
@@ -35,7 +35,7 @@ router
   .all(validateUuid())
   .get(async (req, res, next) => {
     try {
-      const user = usersService.getOneUser(req.params.id);
+      const user = await usersService.getOneUser(req.params.id);
       if (user) {
         res.json(User.toResponse(user));
       } else {
@@ -46,10 +46,10 @@ router
       return;
     }
   })
-  .put(validateJoi(schemas.put), (req, res, next) => {
+  .put(validateJoi(schemas.put), async (req, res, next) => {
     try {
       const updatedUser = { ...req.body, id: req.params.id };
-      const updated = usersService.updateUser(updatedUser);
+      const updated = await usersService.updateUser(updatedUser);
       if (updated) {
         res.json(User.toResponse(updatedUser));
       } else {
@@ -60,10 +60,10 @@ router
       return;
     }
   })
-  .delete((req, res, next) => {
+  .delete(async (req, res, next) => {
     try {
-      const userDeleted = usersService.deleteUser(req.params.id);
-      if (userDeleted) {
+      const userDeleted = await usersService.deleteUser(req.params.id);
+      if (userDeleted === 1) {
         res.status(204).send('The user has been deleted');
       } else {
         throw new ErrorHandler(404, 'User not found');

@@ -3,14 +3,15 @@ const boardsService = require('./board.service');
 const schemas = require('./board.schemas');
 const { validateJoi, validateUuid } = require('../../validation/validate');
 const { ErrorHandler } = require('../../errors/error');
+const Board = require('./board.model');
 
 router
   .route('/')
-  .get((req, res, next) => {
+  .get(async (req, res, next) => {
     try {
-      const boards = boardsService.getBoards();
+      const boards = await boardsService.getBoards();
       if (boards.length > 0) {
-        res.json(boards);
+        res.json(boards.map(Board.toResponse));
       } else {
         throw new ErrorHandler(404, 'No boards found');
       }
@@ -19,10 +20,11 @@ router
       return;
     }
   })
-  .post(validateJoi(schemas.post), (req, res, next) => {
+  .post(validateJoi(schemas.post), async (req, res, next) => {
     try {
-      const newBoard = boardsService.createBoard(req.body);
-      res.json(newBoard);
+      const newBoard = await boardsService.createBoard(req.body);
+      console.log(newBoard);
+      res.json(Board.toResponse(newBoard));
     } catch (error) {
       next(error);
       return;
@@ -32,11 +34,11 @@ router
 router
   .route('/:id')
   .all(validateUuid())
-  .get((req, res, next) => {
+  .get(async (req, res, next) => {
     try {
-      const board = boardsService.getOneBoard(req.params.id);
+      const board = await boardsService.getOneBoard(req.params.id);
       if (board) {
-        res.json(board);
+        res.json(Board.toResponse(board));
       } else {
         throw new ErrorHandler(404, 'Board not found');
       }
@@ -45,12 +47,12 @@ router
       return;
     }
   })
-  .put(validateJoi(schemas.put), (req, res, next) => {
+  .put(validateJoi(schemas.put), async (req, res, next) => {
     try {
       const updatedBoard = { ...req.body, id: req.params.id };
-      const board = boardsService.updateBoard(updatedBoard);
+      const board = await boardsService.updateBoard(updatedBoard);
       if (board) {
-        res.json(updatedBoard);
+        res.json(Board.toResponse(updatedBoard));
       } else {
         throw new ErrorHandler(404, 'Board not found');
       }
@@ -59,10 +61,10 @@ router
       return;
     }
   })
-  .delete((req, res, next) => {
+  .delete(async (req, res, next) => {
     try {
-      const boardDeleted = boardsService.deleteBoard(req.params.id);
-      if (boardDeleted) {
+      const boardDeleted = await boardsService.deleteBoard(req.params.id);
+      if (boardDeleted === 1) {
         res.status(204).send('The board has been deleted');
       } else {
         throw new ErrorHandler(404, 'Board not found');

@@ -196,3 +196,73 @@
 {"message":"   404, Task not found","level":"error","timestamp":"2020-04-16T15:12:57.477Z"}
 {"message":"   404, Task not found","level":"error","timestamp":"2020-04-16T15:12:57.489Z"}
 {"message":"   404, Task not found","level":"error","timestamp":"2020-04-16T15:12:57.492Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:39.303Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T12:46:40.045Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:40.279Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:40.292Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:40.294Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:40.297Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:46:40.300Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:21.239Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T12:48:21.854Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:22.084Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:22.096Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:22.099Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:22.102Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T12:48:22.105Z"}
+{"message":"   404, No tasks found","level":"error","timestamp":"2020-04-17T13:20:49.462Z"}
+{"message":"   404, No tasks found","level":"error","timestamp":"2020-04-17T13:20:49.495Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:49.595Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:49.617Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T13:20:50.337Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.646Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.652Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.656Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.660Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.665Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:20:50.736Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:22:28.260Z"}
+{"message":"   500, task stop","level":"error","timestamp":"2020-04-17T13:24:41.636Z"}
+{"message":"   500, task stop","level":"error","timestamp":"2020-04-17T13:24:41.663Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:24:41.726Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:24:41.742Z"}
+{"message":"   500, task stop","level":"error","timestamp":"2020-04-17T13:24:41.826Z"}
+{"message":"   500, task stop 1","level":"error","timestamp":"2020-04-17T13:26:43.452Z"}
+{"message":"   500, task stop 1","level":"error","timestamp":"2020-04-17T13:26:43.477Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:26:43.536Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-17T13:26:43.552Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:26:43.627Z"}
+{"message":"   500, task stop 1","level":"error","timestamp":"2020-04-17T13:30:04.128Z"}
+{"message":"   500, task stop 1","level":"error","timestamp":"2020-04-17T13:30:04.154Z"}
+{"message":"   500, task stop 4","level":"error","timestamp":"2020-04-17T13:30:04.245Z"}
+{"message":"   500, task stop 3","level":"error","timestamp":"2020-04-17T13:30:04.323Z"}
+{"message":"   500, task stop 2","level":"error","timestamp":"2020-04-17T13:30:04.339Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:30:04.415Z"}
+{"message":"   500, task stop 4","level":"error","timestamp":"2020-04-17T13:30:46.905Z"}
+{"message":"   500, task stop 3","level":"error","timestamp":"2020-04-17T13:30:46.984Z"}
+{"message":"   500, task stop 4","level":"error","timestamp":"2020-04-17T13:30:47.063Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:30:47.145Z"}
+{"message":"   500, task stop 4","level":"error","timestamp":"2020-04-17T13:31:14.766Z"}
+{"message":"   500, task stop 4","level":"error","timestamp":"2020-04-17T13:31:15.031Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:31:15.115Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:31:41.498Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:31:41.770Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:31:41.849Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:32:22.237Z"}
+{"message":"   500, task stop 6","level":"error","timestamp":"2020-04-17T13:32:22.297Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:33:29.680Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T13:33:29.701Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:09.636Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T13:36:09.816Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:10.268Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:10.279Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:10.282Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:10.286Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:36:10.295Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:28.970Z"}
+{"message":"   404, Board not found","level":"error","timestamp":"2020-04-17T13:46:29.154Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:29.775Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:29.781Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:29.786Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:29.792Z"}
+{"message":"   404, Task not found","level":"error","timestamp":"2020-04-17T13:46:29.797Z"}

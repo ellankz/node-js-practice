@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const User = require('../resources/users/user.model');
 const Board = require('../resources/boards/board.model');
+const Task = require('../resources/tasks/task.model');
 
 const users = [
   new User({ name: 'Ella', login: 'sdfgh77', password: 'pass' }),
@@ -39,11 +40,32 @@ const boards = [
   })
 ];
 
+const tasks = [
+  new Task({
+    id: '934c4628-d8ba-40a2-9d05-dafb47ffc051',
+    title: 'Task 1',
+    order: 1,
+    description: 'This only task',
+    userId: '69433f71-1797-4779-a903-e6718eeab406',
+    boardId: 'a9cd1534-9425-485a-88b3-2f636cb2aeee',
+    columnId: '08452e8e-288f-455d-8917-0bdb15bbf42b'
+  }),
+  new Task({
+    id: '79df5012-5de0-4530-8f49-08a28b462975',
+    title: 'Task 2',
+    order: 2,
+    description: 'This second task',
+    userId: '69433f71-1797-4779-a903-e6718eeab406',
+    boardId: 'a9cd1534-9425-485a-88b3-2f636cb2aeee',
+    columnId: '08452e8e-288f-455d-8917-0bdb15bbf42b'
+  })
+];
+
 const connectToDB = cb => {
-  mongoose.connect(
-    'mongodb+srv://nodeAppUser:wertwert@basiccluster-mi0sv.mongodb.net/rest?retryWrites=true&w=majority',
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  );
+  mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
 
   const db = mongoose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));
@@ -52,6 +74,7 @@ const connectToDB = cb => {
     await db.dropDatabase();
     users.forEach(user => user.save());
     boards.forEach(board => board.save());
+    tasks.forEach(task => task.save());
     cb();
   });
 };

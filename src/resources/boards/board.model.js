@@ -1,6 +1,5 @@
 const uuid = require('uuid');
 const mongoose = require('mongoose');
-const _ = require('lodash');
 
 const boardSchema = new mongoose.Schema(
   {
@@ -22,14 +21,7 @@ const boardSchema = new mongoose.Schema(
 );
 
 boardSchema.statics.toResponse = board => {
-  console.log('board in toresponse', board);
-
-  const { _id, title } = board;
-  const columns = board.columns.map(col => {
-    col._id = col.id;
-    return _.omit(col, ['id']);
-  });
-  const id = _id;
+  const { id, title, columns } = board;
   return { id, title, columns };
 };
 

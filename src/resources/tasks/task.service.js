@@ -1,12 +1,8 @@
-const tasksRepo = require('./task.memory.repository');
-const Task = require('./task.model');
+const tasksRepo = require('./task.db.repository');
 
 const getTasks = boardId => tasksRepo.getTasks(boardId);
 
-const createTask = (boardId, task) => {
-  const newTask = new Task(task);
-  return tasksRepo.createTask(boardId, newTask);
-};
+const createTask = (boardId, task) => tasksRepo.createTask(boardId, task);
 
 const getOneTask = (boardId, taskId) => tasksRepo.getOneTask(boardId, taskId);
 

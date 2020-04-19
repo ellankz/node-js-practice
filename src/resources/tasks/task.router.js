@@ -8,9 +8,9 @@ const { ErrorHandler } = require('../../errors/error');
 router
   .route('/:boardId/tasks')
   .all(validateUuid())
-  .get((req, res, next) => {
+  .get(async (req, res, next) => {
     try {
-      const tasks = tasksService.getTasks(req.params.boardId);
+      const tasks = await tasksService.getTasks(req.params.boardId);
       if (tasks.length > 0) {
         res.json(tasks.map(Task.toResponse));
       } else {
@@ -21,9 +21,12 @@ router
       return;
     }
   })
-  .post(validateJoi(schemas.post), (req, res, next) => {
+  .post(validateJoi(schemas.post), async (req, res, next) => {
     try {
-      const newTask = tasksService.createTask(req.params.boardId, req.body);
+      const newTask = await tasksService.createTask(
+        req.params.boardId,
+        req.body
+      );
       res.json(Task.toResponse(newTask));
     } catch (error) {
       next(error);
@@ -34,9 +37,9 @@ router
 router
   .route('/:boardId/tasks/:taskId')
   .all(validateUuid())
-  .get((req, res, next) => {
+  .get(async (req, res, next) => {
     try {
-      const task = tasksService.getOneTask(
+      const task = await tasksService.getOneTask(
         req.params.boardId,
         req.params.taskId
       );
@@ -50,9 +53,9 @@ router
       return;
     }
   })
-  .put(validateJoi(schemas.put), (req, res, next) => {
+  .put(validateJoi(schemas.put), async (req, res, next) => {
     try {
-      const task = tasksService.updateTask(
+      const task = await tasksService.updateTask(
         req.params.boardId,
         req.params.taskId,
         req.body
@@ -67,13 +70,13 @@ router
       return;
     }
   })
-  .delete((req, res, next) => {
+  .delete(async (req, res, next) => {
     try {
-      const taskDeleted = tasksService.deleteTask(
+      const taskDeleted = await tasksService.deleteTask(
         req.params.boardId,
         req.params.taskId
       );
-      if (taskDeleted) {
+      if (taskDeleted === 1) {
         res.status(204).send('The task has been deleted');
       } else {
         throw new ErrorHandler(404, 'Task not found');

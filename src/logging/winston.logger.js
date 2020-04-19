@@ -19,9 +19,9 @@ const logger = createLogger({
 });
 
 const logRequest = (req, res, next) => {
-  const { originalUrl, query, body } = req;
+  const { originalUrl, query, body, method } = req;
   logger.info(
-    `URL: ${originalUrl}, PARAMS: ${JSON.stringify(
+    `URL: ${method} ${originalUrl}, PARAMS: ${JSON.stringify(
       query
     )}, BODY: ${JSON.stringify(body)}`
   );

@@ -15,7 +15,7 @@ const schemas = {
     title: Joi.string(),
     columns: Joi.array().items(
       Joi.object().keys({
-        id: Joi.string().required(),
+        id: Joi.string(),
         title: Joi.string(),
         order: Joi.number()
       })

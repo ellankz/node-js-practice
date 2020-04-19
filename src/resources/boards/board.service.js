@@ -1,22 +1,17 @@
-const boardsRepo = require('./board.memory.repository');
+const boardsRepo = require('./board.db.repository');
 const tasksService = require('../tasks/task.service');
-const Board = require('./board.model');
 
 const getBoards = () => boardsRepo.getBoards();
 
-const createBoard = board => {
-  const newBoard = new Board(board);
-
-  return boardsRepo.createBoard(newBoard);
-};
+const createBoard = board => boardsRepo.createBoard(board);
 
 const getOneBoard = id => boardsRepo.getOneBoard(id);
 
 const updateBoard = board => boardsRepo.updateBoard(board);
 
-const deleteBoard = id => {
-  const result = boardsRepo.deleteBoard(id);
-  tasksService.deleteTasksByBoard(id);
+const deleteBoard = async id => {
+  const result = await boardsRepo.deleteBoard(id);
+  await tasksService.deleteTasksByBoard(id);
   return result;
 };
 

@@ -19,7 +19,7 @@ const validateUuid = () => {
       /^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$/,
       'i'
     );
-    const params = ['id', 'boardId', 'taskId'];
+    const params = ['_id', 'boardId', 'taskId'];
     params.forEach(elem => {
       if (req.params[elem]) {
         const result = re.test(req.params[elem]);

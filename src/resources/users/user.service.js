@@ -1,21 +1,17 @@
-const usersRepo = require('./user.memory.repository');
+const usersRepo = require('./user.db.repository');
 const tasksService = require('../tasks/task.service');
-const User = require('./user.model');
 
 const getUsers = () => usersRepo.getUsers();
 
-const createUser = user => {
-  const newUser = new User(user);
-  return usersRepo.createUser(newUser);
-};
+const createUser = user => usersRepo.createUser(user);
 
 const getOneUser = id => usersRepo.getOneUser(id);
 
 const updateUser = user => usersRepo.updateUser(user);
 
-const deleteUser = id => {
-  const result = usersRepo.deleteUser(id);
-  tasksService.unassignUser(id);
+const deleteUser = async id => {
+  const result = await usersRepo.deleteUser(id);
+  await tasksService.unassignUser(id);
   return result;
 };
 

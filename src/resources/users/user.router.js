@@ -10,11 +10,7 @@ router
   .get(async (req, res, next) => {
     try {
       const users = await usersService.getUsers();
-      if (users.length > 0) {
-        res.json(users.map(User.toResponse));
-      } else {
-        throw new ErrorHandler(404, 'No users found');
-      }
+      res.json(users.map(User.toResponse));
     } catch (error) {
       next(error);
       return;

@@ -11,11 +11,7 @@ router
   .get(async (req, res, next) => {
     try {
       const tasks = await tasksService.getTasks(req.params.boardId);
-      if (tasks.length > 0) {
-        res.json(tasks.map(Task.toResponse));
-      } else {
-        throw new ErrorHandler(404, 'No tasks found');
-      }
+      res.json(tasks.map(Task.toResponse));
     } catch (error) {
       next(error);
       return;

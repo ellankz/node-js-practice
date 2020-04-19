@@ -71,7 +71,6 @@ const connectToDB = cb => {
   db.on('error', console.error.bind(console, 'connection error:'));
   db.once('open', async () => {
     console.log("We're connected");
-    await db.dropDatabase();
     users.forEach(user => user.save());
     boards.forEach(board => board.save());
     tasks.forEach(task => task.save());

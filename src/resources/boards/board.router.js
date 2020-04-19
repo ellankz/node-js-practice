@@ -10,11 +10,7 @@ router
   .get(async (req, res, next) => {
     try {
       const boards = await boardsService.getBoards();
-      if (boards.length > 0) {
-        res.json(boards.map(Board.toResponse));
-      } else {
-        throw new ErrorHandler(404, 'No boards found');
-      }
+      res.json(boards.map(Board.toResponse));
     } catch (error) {
       next(error);
       return;

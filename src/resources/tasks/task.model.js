@@ -1,18 +1,21 @@
 const uuid = require('uuid');
 const mongoose = require('mongoose');
 
-const taskSchema = mongoose.Schema({
-  _id: {
-    type: String,
-    default: uuid
+const taskSchema = mongoose.Schema(
+  {
+    _id: {
+      type: String,
+      default: uuid
+    },
+    title: String,
+    order: Number,
+    description: String,
+    userId: String,
+    boardId: String,
+    columnId: String
   },
-  title: String,
-  order: Number,
-  description: String,
-  userId: String,
-  boardId: String,
-  columnId: String
-});
+  { versionKey: false }
+);
 
 taskSchema.statics.toResponse = task => {
   const { id, title, order, description, userId, boardId, columnId } = task;

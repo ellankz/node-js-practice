@@ -9,7 +9,9 @@ class ErrorHandler extends Error {
 }
 
 const handleError = (err, res) => {
-  logError(err);
+  if (err.statusCode !== 404) {
+    logError(err);
+  }
   err.message = err.statusCode === 500 ? 'Internal server error' : err.message;
   res.status(err.statusCode).json({
     status: 'error',

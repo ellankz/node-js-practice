@@ -1,2 +1,4 @@
 node_modules
 task1/node_modules
+log/info.log
+log/error.log

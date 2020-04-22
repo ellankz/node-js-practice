@@ -9,8 +9,8 @@ const createUser = async user => {
   return User.create(user);
 };
 
-const getOneUser = id => {
-  return User.findOne({ _id: id });
+const getOneUserByParams = paramsObj => {
+  return User.findOne(paramsObj);
 };
 
 const updateUser = async user => {
@@ -22,4 +22,10 @@ const deleteUser = async id => {
   return (await User.deleteOne({ _id: id })).ok;
 };
 
-module.exports = { getUsers, createUser, getOneUser, updateUser, deleteUser };
+module.exports = {
+  getUsers,
+  createUser,
+  getOneUserByParams,
+  updateUser,
+  deleteUser
+};

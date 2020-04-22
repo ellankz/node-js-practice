@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 const User = require('../resources/users/user.model');
 const Board = require('../resources/boards/board.model');
 const Task = require('../resources/tasks/task.model');
+const { MONGO_CONNECTION_STRING } = require('../common/config');
 
 const users = [
-  new User({ name: 'Ella', login: 'sdfgh77', password: 'pass' }),
-  new User({ name: 'TEST_USER', login: 'test_user', password: 'pass' }),
+  new User({ name: 'admin', login: 'admin', password: 'admin' }),
   new User({ name: 'TEST_USER', login: 'test_user', password: 'pass' })
 ];
 
@@ -62,7 +62,7 @@ const tasks = [
 ];
 
 const connectToDB = cb => {
-  mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+  mongoose.connect(MONGO_CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });

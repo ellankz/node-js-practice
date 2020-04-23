@@ -4,10 +4,10 @@ const { ErrorHandler } = require('../../errors/error');
 
 router.route('/').post(async (req, res, next) => {
   try {
-    const user = await loginService.authenticate(req.body);
-    if (user.token) {
-      console.log(user.token);
-      res.status(200).send(user.token);
+    const token = await loginService.authenticate(req.body);
+    if (token) {
+      console.log(token);
+      res.status(200).json(token);
     } else {
       throw new ErrorHandler(403, 'Incorrect login or password');
     }

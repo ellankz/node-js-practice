@@ -1,0 +1,498 @@
+{"message":"   500, Unhandled Rejection at Promise: user.toSave is not a function","level":"error","timestamp":"2020-04-21T16:53:43.937Z"}
+{"message":"   500, Unhandled Rejection at Promise: user.toSave is not a function","level":"error","timestamp":"2020-04-21T16:53:52.825Z"}
+{"message":"   500, Unhandled Rejection at Promise: User.toSave(...).save is not a function","level":"error","timestamp":"2020-04-21T16:55:09.045Z"}
+{"message":"   500, Unhandled Rejection at Promise: User.toSave(...).save is not a function","level":"error","timestamp":"2020-04-21T16:55:14.020Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T16:57:34.425Z"}
+{"message":"   500, Unhandled Rejection at Promise: user.isModified is not a function","level":"error","timestamp":"2020-04-21T17:06:06.448Z"}
+{"message":"   500, Unhandled Rejection at Promise: user.isModified is not a function","level":"error","timestamp":"2020-04-21T17:06:11.607Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:06:34.581Z"}
+{"message":"   500, Unhandled Rejection at Promise: user.isModified is not a function","level":"error","timestamp":"2020-04-21T17:06:34.606Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:07:10.426Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:07:15.446Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:08:09.018Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:08:09.018Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:16:00.404Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:16:05.328Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:17:14.554Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:17:19.519Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:18:14.070Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:18:14.282Z"}
+{"message":"   500, Unhandled Rejection at Promise: data and salt arguments required","level":"error","timestamp":"2020-04-21T17:18:20.351Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:18:20.360Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:23:57.623Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:24:49.309Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:41:29.379Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:41:50.421Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T17:48:11.853Z"}
+{"message":"    URL: GET /doc/, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:39.714Z"}
+{"message":"    URL: GET /doc/swagger-ui.css, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:39.941Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:39.952Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:39.968Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:39.982Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:45.053Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:45.089Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-21T18:12:45.093Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:13:33.639Z"}
+{"message":"   500, Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-21T18:13:33.650Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:15:47.828Z"}
+{"message":"   500, Unexpected token u in JSON at position 0","level":"error","timestamp":"2020-04-21T18:15:47.852Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:17:56.664Z"}
+{"message":"   500, logger.debug is not a function","level":"error","timestamp":"2020-04-21T18:17:56.688Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:18:27.540Z"}
+{"message":"   500, logger.info is not a function","level":"error","timestamp":"2020-04-21T18:18:27.557Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:18:59.127Z"}
+{"message":"   500, Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-21T18:18:59.152Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:19:29.019Z"}
+{"message":"   500, Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-21T18:19:29.045Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T18:19:29.351Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:19:48.460Z"}
+{"message":"   500, Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-21T18:19:48.467Z"}
+{"message":"   500, Uncaught Exception: listen EADDRINUSE: address already in use :::4000","level":"error","timestamp":"2020-04-21T18:19:56.122Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:21:12.225Z"}
+{"message":"   500, Cannot read property 'login' of undefined","level":"error","timestamp":"2020-04-21T18:21:12.251Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"Ella\",\"password\":\"sdfgh77\"}","level":"info","timestamp":"2020-04-21T18:22:03.549Z"}
+{"message":"   500, Cannot read property 'comparePassword' of null","level":"error","timestamp":"2020-04-21T18:22:04.133Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-21T18:23:23.234Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-21T18:23:46.613Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-21T18:25:35.085Z"}
+{"message":"    URL: GET /doc/, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:53.353Z"}
+{"message":"    URL: GET /doc/swagger-ui.css, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:53.476Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:53.491Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:53.507Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:53.518Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:58.171Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:58.178Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T09:20:58.184Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:21:23.501Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:21:39.046Z"}
+{"message":"   500, usersService.authenticate is not a function","level":"error","timestamp":"2020-04-22T09:21:39.051Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:22:08.157Z"}
+{"message":"   500, foundUser.comparePassword is not a function","level":"error","timestamp":"2020-04-22T09:22:08.256Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:22:30.849Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"444\"}","level":"info","timestamp":"2020-04-22T09:29:06.451Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:29:41.913Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"555\"}","level":"info","timestamp":"2020-04-22T09:31:45.441Z"}
+{"message":"   403, Incorrect login or password","level":"error","timestamp":"2020-04-22T09:31:45.912Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T09:32:03.127Z"}
+{"message":"    URL: GET /doc/, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:16.645Z"}
+{"message":"    URL: GET /doc/swagger-ui.css, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:16.691Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:16.698Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:16.706Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:16.710Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:18.216Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:18.220Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:32:18.223Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:32:38.408Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:32:47.762Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:32:47.930Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:36:09.108Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:36:09.283Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:37:59.764Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:37:59.972Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:38:51.670Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:38:51.814Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:39:34.036Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:39:34.178Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:40:17.388Z"}
+{"message":"   500, Cannot read property 'token' of undefined","level":"error","timestamp":"2020-04-22T11:40:17.530Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:41:00.187Z"}
+{"message":"   403, Incorrect login or password","level":"error","timestamp":"2020-04-22T11:41:00.344Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:43:00.880Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"string\",\"password\":\"string\"}","level":"info","timestamp":"2020-04-22T11:44:11.098Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.772Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.803Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-22T11:52:18.808Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.828Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.844Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-22T11:52:18.846Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:18.899Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-22T11:52:18.901Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.904Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T11:52:18.909Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:18.913Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T11:52:18.914Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-22T11:52:18.916Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-22T11:52:18.917Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.938Z"}
+{"message":"   400, Invalid request. The ID string is not a UUID","level":"error","timestamp":"2020-04-22T11:52:18.939Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:18.946Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:18.954Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.000Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.062Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.067Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.071Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.073Z"}
+{"message":"   400, Invalid request body","level":"error","timestamp":"2020-04-22T11:52:19.075Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.079Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:19.095Z"}
+{"message":"    URL: POST /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:19.153Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.162Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.165Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:19.169Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.210Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.271Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.276Z"}
+{"message":"    URL: GET /users/b89df8b6-390e-48c7-939d-1ddfe80bc167, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.364Z"}
+{"message":"    URL: GET /boards/afa66e8d-9e91-41ec-9075-d1dab3737372, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.367Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/a4457430-7da6-4d94-9a9c-7f3e8b979f97, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.370Z"}
+{"message":"    URL: DELETE /users/b89df8b6-390e-48c7-939d-1ddfe80bc167, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.416Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.422Z"}
+{"message":"    URL: POST /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:19.430Z"}
+{"message":"    URL: DELETE /boards/b63fa2e0-4815-4ee4-b297-4c9b647ba7f6, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.478Z"}
+{"message":"    URL: DELETE /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/0fe94d3d-7ce7-4776-8547-40e43ad29959, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.480Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:19.530Z"}
+{"message":"    URL: POST /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:19.532Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.569Z"}
+{"message":"    URL: PUT /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/97db5fd1-26bb-455e-a50f-7872cbd39263, PARAMS: {}, BODY: {\"id\":\"97db5fd1-26bb-455e-a50f-7872cbd39263\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"84f48142-cf09-43e9-bf47-3ba448de2bb2\",\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:19.582Z"}
+{"message":"    URL: PUT /boards/32013739-2ddd-4bf1-97ef-fbc7e8889b07, PARAMS: {}, BODY: {\"id\":\"32013739-2ddd-4bf1-97ef-fbc7e8889b07\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1,\"id\":\"12c2cdc1-d356-41d6-a148-6a9aa3eabf3b\"},{\"title\":\"Sprint\",\"order\":2,\"id\":\"c9b1f7c3-cbc1-43e5-9581-bb84daa752cb\"}]}","level":"info","timestamp":"2020-04-22T11:52:19.620Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/97db5fd1-26bb-455e-a50f-7872cbd39263, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.635Z"}
+{"message":"    URL: DELETE /users/bb8058e9-0e2b-4862-ac06-1e137bb07362, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.661Z"}
+{"message":"    URL: GET /boards/32013739-2ddd-4bf1-97ef-fbc7e8889b07, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.696Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/a4457430-7da6-4d94-9a9c-7f3e8b979f97, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.723Z"}
+{"message":"    URL: DELETE /boards/32013739-2ddd-4bf1-97ef-fbc7e8889b07, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.767Z"}
+{"message":"    URL: DELETE /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/a4457430-7da6-4d94-9a9c-7f3e8b979f97, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.773Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:19.795Z"}
+{"message":"    URL: GET /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2/tasks/a4457430-7da6-4d94-9a9c-7f3e8b979f97, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.820Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:19.855Z"}
+{"message":"    URL: DELETE /boards/84f48142-cf09-43e9-bf47-3ba448de2bb2, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.865Z"}
+{"message":"    URL: DELETE /boards/04d3d77f-65ff-484b-9439-3906e456519c, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.907Z"}
+{"message":"    URL: PUT /users/0a596165-1d2f-4be1-a734-73c3f31b6fdf, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"0a596165-1d2f-4be1-a734-73c3f31b6fdf\"}","level":"info","timestamp":"2020-04-22T11:52:19.926Z"}
+{"message":"    URL: GET /users/0a596165-1d2f-4be1-a734-73c3f31b6fdf, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.977Z"}
+{"message":"    URL: GET /boards/04d3d77f-65ff-484b-9439-3906e456519c, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:19.999Z"}
+{"message":"    URL: DELETE /users/0a596165-1d2f-4be1-a734-73c3f31b6fdf, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.024Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:20.047Z"}
+{"message":"    URL: POST /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks, PARAMS: {}, BODY: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"87292710-cf3d-4e73-a2da-3e0fd9a4e65b\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:20.110Z"}
+{"message":"    URL: POST /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks, PARAMS: {}, BODY: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"87292710-cf3d-4e73-a2da-3e0fd9a4e65b\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:20.117Z"}
+{"message":"    URL: POST /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks, PARAMS: {}, BODY: {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"87292710-cf3d-4e73-a2da-3e0fd9a4e65b\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:20.123Z"}
+{"message":"    URL: POST /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks, PARAMS: {}, BODY: {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"87292710-cf3d-4e73-a2da-3e0fd9a4e65b\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:20.129Z"}
+{"message":"    URL: POST /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks, PARAMS: {}, BODY: {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"87292710-cf3d-4e73-a2da-3e0fd9a4e65b\",\"userId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-22T11:52:20.134Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:20.145Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/f4276ebe-5df5-445a-bbf7-56fe8cbb5e34, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.190Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/3904b9b5-77e0-43e2-a391-4494597f31bb, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.193Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/5fcd889b-820c-4ca0-8238-4b6d6afbb052, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.195Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/d63215d1-3b6c-4dd4-b546-eec5fd6a33c3, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.199Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/008e69c8-1cc5-4c1e-b693-b809bc128e80, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.202Z"}
+{"message":"    URL: DELETE /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.249Z"}
+{"message":"    URL: DELETE /users/11cccce5-676d-48a8-af2d-f53fb3a2591d, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.300Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/f4276ebe-5df5-445a-bbf7-56fe8cbb5e34, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.346Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/008e69c8-1cc5-4c1e-b693-b809bc128e80, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.348Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/3904b9b5-77e0-43e2-a391-4494597f31bb, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.349Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/5fcd889b-820c-4ca0-8238-4b6d6afbb052, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.350Z"}
+{"message":"    URL: GET /boards/87292710-cf3d-4e73-a2da-3e0fd9a4e65b/tasks/d63215d1-3b6c-4dd4-b546-eec5fd6a33c3, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.352Z"}
+{"message":"    URL: DELETE /boards/d3e24f2b-18a8-4c43-84a5-f813319cbecc, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.397Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-22T11:52:20.452Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-22T11:52:20.611Z"}
+{"message":"    URL: POST /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks, PARAMS: {}, BODY: {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"b953e976-1cbc-4971-a415-58bbd8d06faf\",\"boardId\":\"895ca561-0f6a-4628-8a34-e846d51c402f\"}","level":"info","timestamp":"2020-04-22T11:52:20.676Z"}
+{"message":"    URL: POST /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks, PARAMS: {}, BODY: {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"b953e976-1cbc-4971-a415-58bbd8d06faf\",\"boardId\":\"895ca561-0f6a-4628-8a34-e846d51c402f\"}","level":"info","timestamp":"2020-04-22T11:52:20.683Z"}
+{"message":"    URL: DELETE /users/b953e976-1cbc-4971-a415-58bbd8d06faf, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.742Z"}
+{"message":"    URL: GET /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks/95a76a71-1d11-44bd-b388-b46d8579f52e, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.861Z"}
+{"message":"    URL: GET /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks/20acb5ce-adc4-4745-b867-77b00b1e0df4, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.916Z"}
+{"message":"    URL: DELETE /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks/95a76a71-1d11-44bd-b388-b46d8579f52e, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.967Z"}
+{"message":"    URL: DELETE /boards/895ca561-0f6a-4628-8a34-e846d51c402f/tasks/20acb5ce-adc4-4745-b867-77b00b1e0df4, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:20.971Z"}
+{"message":"    URL: DELETE /boards/895ca561-0f6a-4628-8a34-e846d51c402f, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:52:21.021Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:57:08.277Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:57:08.279Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-22T11:57:08.283Z"}
+{"message":"    URL: GET /doc/, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:11.866Z"}
+{"message":"    URL: GET /doc/swagger-ui.css, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:12.130Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:12.145Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:12.178Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:12.200Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:18.240Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:18.250Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:26:18.256Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T12:38:13.807Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T12:39:18.496Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:44:12.058Z"}
+{"message":"    URL: GET /doc/, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:03.666Z"}
+{"message":"    URL: GET /doc/swagger-ui.css, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:03.794Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:03.800Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:03.814Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:03.821Z"}
+{"message":"    URL: GET /doc/favicon-32x32.png, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:06.256Z"}
+{"message":"    URL: GET /doc/swagger-ui-bundle.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:08.974Z"}
+{"message":"    URL: GET /doc/swagger-ui-init.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:08.982Z"}
+{"message":"    URL: GET /doc/swagger-ui-standalone-preset.js, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:08.987Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:47:09.526Z"}
+{"message":"   401, Access token is missing or invalid","level":"error","timestamp":"2020-04-23T12:47:09.532Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T12:47:42.852Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:48:01.314Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:49:09.499Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:49:44.752Z"}
+{"message":"   401, Access token is missing or invalid","level":"error","timestamp":"2020-04-23T12:49:44.760Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:52:58.477Z"}
+{"message":"   500, invalid signature","level":"error","timestamp":"2020-04-23T12:52:58.484Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T12:59:52.131Z"}
+{"message":"   500, invalid signature","level":"error","timestamp":"2020-04-23T12:59:52.161Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:02:46.657Z"}
+{"message":"   401, Access token is missing or invalid","level":"error","timestamp":"2020-04-23T13:02:46.697Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:04:21.497Z"}
+{"message":"   401, Access token is missing or invalid","level":"error","timestamp":"2020-04-23T13:04:21.503Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:04:48.183Z"}
+{"message":"    URL: GET /users/2d7d3db5-6c68-4e80-92d6-d419cc526adf, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:06:07.877Z"}
+{"message":"    URL: GET /users/2d7d3db5-6c68-4e80-92d6-d419cc526adr, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:06:18.793Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:07:58.552Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.119Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.178Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.196Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:11.316Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.324Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.336Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:11.353Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:09:11.366Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:09:11.416Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.421Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.427Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:09:11.437Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:09:11.455Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:11.461Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:09:11.468Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.500Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:11.505Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.528Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:11.863Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:11.872Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:09:11.883Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.887Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.899Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.907Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:11.916Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.924Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:11.933Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:11.944Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:12.006Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:12.023Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:09:12.032Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:12.043Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:12.049Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:09:12.062Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:09:12.076Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:12.082Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:09:12.094Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:12.103Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:12.107Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:12.118Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:09:12.128Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:12.135Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:09:12.145Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:09:12.153Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:18.730Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:19.069Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:19.296Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:15:19.317Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:15:19.406Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:19.423Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:19.601Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.133Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.219Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.282Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.320Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.332Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.348Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.366Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.387Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.419Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.429Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.453Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:20.492Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.506Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:15:20.523Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:15:20.535Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.559Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.590Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.620Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:15:20.955Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:15:20.973Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:20.997Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.034Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:15:21.053Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:15:21.081Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:15:21.095Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.112Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.129Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.178Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.235Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:21.256Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:15:21.272Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:21.293Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:24.039Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:24.079Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:15:24.095Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:15:24.107Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:15:24.119Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:21:59.436Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:21:59.637Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:00.417Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:22:00.451Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.493Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.538Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:22:00.604Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:22:00.645Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:22:00.665Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.687Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.735Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:00.830Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.864Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:00.925Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:01.015Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:01.054Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:22:01.144Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:01.233Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:01.295Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:01.317Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:02.478Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:02.532Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:02.551Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:02.566Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:02.581Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:22:03.330Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:03.629Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:03.677Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:22:03.697Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:22:03.710Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:03.719Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:03.727Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.748Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.765Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.785Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.800Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.817Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:03.831Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:22:03.875Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:04.990Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:05.047Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:05.067Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:22:05.082Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:22:05.093Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:30:31.807Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.035Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.078Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.161Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.235Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.359Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:30:32.425Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.452Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:30:32.482Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:30:32.493Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.551Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.602Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.619Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.644Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:32.688Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.730Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:30:32.798Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:32.812Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.835Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:32.850Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.871Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.881Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.923Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:32.930Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:30:32.962Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:32.981Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:32.993Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.015Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:30:33.054Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:33.070Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:30:33.111Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:30:33.154Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.175Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.192Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.432Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.493Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:30:33.511Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:30:33.532Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:33.548Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:37.352Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:37.392Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:37.408Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:30:37.421Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:30:37.431Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:22.476Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:22.586Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:22.723Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:22.753Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:22.774Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:34:23.823Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.001Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.064Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:24.087Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:24.115Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.134Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.200Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.264Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:34:24.287Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:34:24.305Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.334Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:24.374Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:34:24.394Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.422Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:34:24.440Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.460Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:34:24.482Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:34:24.506Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:34:24.523Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.544Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.561Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:24.882Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:24.911Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:24.930Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:24.950Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:24.966Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:24.989Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:25.004Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:34:25.046Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:34:25.342Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:25.728Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:25.747Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:25.771Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:25.787Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:25.802Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:34:25.816Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:25.831Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:34:25.846Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:34:25.859Z"}
+{"message":"    URL: GET /boards/12345/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:03.874Z"}
+{"message":"    URL: GET /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:04.118Z"}
+{"message":"    URL: POST /boards/12345/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:41:04.382Z"}
+{"message":"    URL: PUT /boards/12345/tasks/12345, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:41:04.431Z"}
+{"message":"    URL: DELETE /boards/12345/tasks/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:04.482Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:07.623Z"}
+{"message":"    URL: GET /users/123, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:07.679Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:07.702Z"}
+{"message":"    URL: PUT /users/12345, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:07.731Z"}
+{"message":"    URL: DELETE /users/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:07.749Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:41:07.927Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.233Z"}
+{"message":"    URL: GET /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.284Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:08.307Z"}
+{"message":"    URL: PUT /boards/12345, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:08.325Z"}
+{"message":"    URL: DELETE /boards/12345, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.343Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:41:08.374Z"}
+{"message":"    URL: POST /login, PARAMS: {}, BODY: {\"login\":\"admin\",\"password\":\"admin\"}","level":"info","timestamp":"2020-04-23T13:41:08.495Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:08.506Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:41:08.528Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.548Z"}
+{"message":"    URL: GET /boards/undefined/tasks, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.577Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:41:08.596Z"}
+{"message":"    URL: POST /boards/undefined/tasks, PARAMS: {}, BODY: {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","level":"info","timestamp":"2020-04-23T13:41:08.613Z"}
+{"message":"    URL: PUT /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated task\"}","level":"info","timestamp":"2020-04-23T13:41:08.627Z"}
+{"message":"    URL: GET /boards/undefined/tasks/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.643Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.660Z"}
+{"message":"    URL: GET /users, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.852Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:08.887Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:08.901Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.916Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:08.929Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:08.951Z"}
+{"message":"    URL: GET /boards, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:08.962Z"}
+{"message":"    URL: PUT /users/undefined, PARAMS: {}, BODY: {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:08.974Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:08.983Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:08.995Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:09.006Z"}
+{"message":"    URL: DELETE /users/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:09.014Z"}
+{"message":"    URL: PUT /boards/undefined, PARAMS: {}, BODY: {\"status\":\"error\",\"statusCode\":401,\"message\":\"Access token is missing or invalid\",\"title\":\"Autotest updated board\"}","level":"info","timestamp":"2020-04-23T13:41:09.025Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:09.040Z"}
+{"message":"    URL: POST /users, PARAMS: {}, BODY: {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","level":"info","timestamp":"2020-04-23T13:41:09.055Z"}
+{"message":"    URL: POST /boards, PARAMS: {}, BODY: {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","level":"info","timestamp":"2020-04-23T13:41:09.066Z"}
+{"message":"    URL: DELETE /boards/undefined, PARAMS: {}, BODY: {}","level":"info","timestamp":"2020-04-23T13:41:09.078Z"}

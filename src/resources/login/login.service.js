@@ -1,5 +1,5 @@
 const usersService = require('../users/user.service');
-const jwt = require('jsonwebtoken');
+const { jwtCreate } = require('../../jwt/jwt');
 
 const authenticate = async user => {
   const foundUser = await usersService.getOneUserByParams({
@@ -9,19 +9,16 @@ const authenticate = async user => {
   if (!userMatch) {
     return { token: false };
   }
-  return await createJWT(foundUser);
+  return createJWT(foundUser);
 };
 
-const createJWT = async user => {
+const createJWT = user => {
   const payload = {
     userId: user.id,
     login: user.login
   };
-  const options = {
-    expiresIn: '7d'
-  };
-  const secret = Buffer.from(process.env.JWT_SECRET_KEY, 'base64');
-  const token = await jwt.sign(payload, secret, options);
+  const token = jwtCreate(payload);
+  console.log(token);
   return { token };
 };
 

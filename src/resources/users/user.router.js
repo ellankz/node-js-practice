@@ -31,7 +31,7 @@ router
   .all(validateUuid())
   .get(async (req, res, next) => {
     try {
-      const user = await usersService.getOneUser(req.params.id);
+      const user = await usersService.getOneUserById(req.params.id);
       if (user) {
         res.json(User.toResponse(user));
       } else {

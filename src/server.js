@@ -3,10 +3,6 @@ const app = require('./app');
 const { connectToDB } = require('./db/db.client');
 const { logError } = require('./logging/winston.logger');
 
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config({ path: '.env' });
-}
-
 process
   .on('unhandledRejection', reason => {
     reason.statusCode = 500;

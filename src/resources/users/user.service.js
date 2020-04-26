@@ -5,7 +5,11 @@ const getUsers = () => usersRepo.getUsers();
 
 const createUser = user => usersRepo.createUser(user);
 
-const getOneUser = id => usersRepo.getOneUser(id);
+const getOneUserById = id => usersRepo.getOneUserByParams({ _id: id });
+
+const getOneUserByParams = async paramsObj => {
+  return usersRepo.getOneUserByParams(paramsObj);
+};
 
 const updateUser = user => usersRepo.updateUser(user);
 
@@ -19,6 +23,7 @@ module.exports = {
   getUsers,
   updateUser,
   createUser,
-  getOneUser,
-  deleteUser
+  getOneUserById,
+  deleteUser,
+  getOneUserByParams
 };

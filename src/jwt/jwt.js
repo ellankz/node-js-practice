@@ -1,20 +1,25 @@
 const jwt = require('jsonwebtoken');
+const util = require('util');
 const { ErrorHandler } = require('../errors/error');
 const secret = Buffer.from(process.env.JWT_SECRET_KEY, 'base64');
 
-const jwtCreate = payload => {
+const jwtCreate = async payload => {
   const options = {
     expiresIn: '7d'
   };
-  const token = jwt.sign(payload, secret, options);
-  console.log('created token', token);
+  const sign = util.promisify(jwt.sign);
+  const token = await sign(payload, secret, options);
   return token;
 };
 
-const checkJWT = (req, res, next) => {
+const checkJWT = async (req, res, next) => {
   try {
-    console.log('received header', req.header('Authorization'));
-    if (req.originalUrl === '/login') {
+    if (
+      req.originalUrl === '/login' ||
+      req.originalUrl.startsWith('/doc') ||
+      req.originalUrl === '/' ||
+      req.originalUrl === '/favicon.ico'
+    ) {
       next();
       return;
     } else if (
@@ -22,7 +27,8 @@ const checkJWT = (req, res, next) => {
       req.header('Authorization').startsWith('Bearer ')
     ) {
       const tokenReceived = req.header('Authorization').substring(7);
-      jwt.verify(tokenReceived, secret);
+      const verify = util.promisify(jwt.verify);
+      await verify(tokenReceived, secret);
       next();
       return;
     }
